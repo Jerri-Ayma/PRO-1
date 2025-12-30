@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAC-MAN | Arcade Classic</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>PAC-MAN</h1>
+        
+        <div class="scoreboard">
+            <div class="score-item">
+                <div class="score-label">SCORE</div>
+                <div class="score-value" id="score">0</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">HIGH SCORE</div>
+                <div class="score-value" id="highScore">0</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">LEVEL</div>
+                <div class="score-value" id="level">1</div>
+            </div>
+            <div class="score-item">
+                <div class="score-label">LIVES</div>
+                <div class="lives" id="lives"></div>
+            </div>
+        </div>
+
+        <canvas id="gameCanvas" width="560" height="620"></canvas>
+
+        <div class="controls">
+            <p>⬆️ ⬇️ ⬅️ ➡️  TECLAS DE DIRECCIÓN</p>
+            <p>ESPACIO - PAUSAR | ESC - REINICIAR</p>
+        </div>
+
+        <div class="game-start" id="gameStart">
+            <h2>¡READY!</h2>
+            <p style="margin: 20px 0; font-size: 12px;">Come todos los puntos y evita los fantasmas</p>
+            <button onclick="startGame()">INICIAR JUEGO</button>
+        </div>
+
+        <div class="game-over" id="gameOver">
+            <h2>GAME OVER</h2>
+            <p style="margin: 20px 0;">Score: <span id="finalScore">0</span></p>
+            <button onclick="restartGame()">REINTENTAR</button>
+        </div>
+    </div>
+
+    <!-- JavaScript del juego -->
+    <script src="game.js"></script>
+</body>
+</html>
