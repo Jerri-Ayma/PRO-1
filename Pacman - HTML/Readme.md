@@ -2,7 +2,7 @@
 
 Un juego de Pacman completamente funcional con estética retro arcade y movimiento fluido.
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 pacman-game/
@@ -13,36 +13,36 @@ pacman-game/
 └── README.md       # Este archivo
 ```
 
-## 🚀 Cómo usar
+## Cómo usar
 
 1. **Descarga todos los archivos** en la misma carpeta
 2. **Abre index.html** en tu navegador web
 3. **¡Juega!** Presiona "INICIAR JUEGO"
 
-## 🎮 Controles
+## Controles
 
 - **⬆️ ⬇️ ⬅️ ➡️** - Mover a Pacman
 - **ESPACIO** - Pausar/Reanudar juego
 - **ESC** - Reiniciar juego
 
-## ⚙️ Características
+## Características
 
 ### Jugabilidad
-- ✅ Movimiento fluido y suave
-- ✅ 4 fantasmas con diferentes personalidades de IA
-- ✅ Power pellets que te hacen invencible
-- ✅ Sistema de vidas y puntuación
-- ✅ High score guardado en localStorage
-- ✅ Túneles laterales para escapar
+- Movimiento fluido y suave
+- 4 fantasmas con diferentes personalidades de IA
+- Power pellets que te hacen invencible
+- Sistema de vidas y puntuación
+- High score guardado en localStorage
+- Túneles laterales para escapar
 
 ### Diseño
-- 🎨 Estética neón retro-futurista
-- 💡 Efectos de iluminación brillantes
-- 📺 Efecto de líneas de escaneo CRT
-- 🎬 Animaciones suaves
-- 📱 Diseño responsive
+- Estética neón retro-futurista
+- Efectos de iluminación brillantes
+- Efecto de líneas de escaneo CRT
+- Animaciones suaves
+- Diseño responsive
 
-## 🔧 Personalización
+## Personalización
 
 ### Velocidades del juego (en `game.js`)
 
@@ -89,7 +89,7 @@ const STOP_ON_KEY_RELEASE = false;
 }
 ```
 
-## 🎯 Reglas del Juego
+##Reglas del Juego
 
 1. **Come todos los puntos** pequeños para avanzar de nivel
 2. **Evita los fantasmas** - pierdes una vida si te tocan
@@ -99,13 +99,13 @@ const STOP_ON_KEY_RELEASE = false;
    - Ganar puntos extra al comerlos
 4. **Usa los túneles** laterales para escapar
 
-## 📊 Sistema de Puntuación
+## Sistema de Puntuación
 
 - 🔵 Punto pequeño: **10 puntos**
 - 🔴 Power pellet: **50 puntos**
 - 👻 Fantasma comido: **200 puntos**
 
-## 🐛 Solución de Problemas
+## Solución de Problemas
 
 ### El juego no carga
 - Asegúrate de que los 3 archivos estén en la misma carpeta
@@ -118,14 +118,14 @@ const STOP_ON_KEY_RELEASE = false;
 - Aumenta la duración del Power Mode en línea ~417
 - Reduce la velocidad de los fantasmas en línea ~286
 
-## 💻 Compatibilidad
+## Compatibilidad
 
 - ✅ Chrome/Edge (recomendado)
 - ✅ Firefox
 - ✅ Safari
 - ✅ Navegadores móviles
 
-## 📝 Notas Técnicas
+## Notas Técnicas
 
 ### Tecnologías usadas
 - HTML5 Canvas para renderizado del juego
@@ -143,6 +143,4 @@ const STOP_ON_KEY_RELEASE = false;
 
 Diseñado con estética retro arcade inspirada en el Pacman clásico de 1980.
 
----
-
-**¡Disfruta del juego!** 🎮👾
+**¡Disfruta del juego!** :)
